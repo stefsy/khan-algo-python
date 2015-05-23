@@ -2,14 +2,10 @@
 Search an ordered list to find the index of the target value
 """
 
-"""
-Clean this up! Not a great example yet, implement more practical example 
-"""
-
-def binarysearch(ran, target):
-	guess = ran[len(ran)/2] # not bothering with floor b/c these are all ints
-	m_min = ran[0]
-	m_max = ran[:-1]
+def basic_binary_search(array, target):
+	guess = array[len(array)/2] # not bothering with floor b/c these are all ints
+	m_min = array[0]
+	m_max = array[:-1]
 
 	while guess != target:
 		if guess > target:
@@ -18,10 +14,11 @@ def binarysearch(ran, target):
 			m_min = guess + 1
 		guess = (m_min+m_max)/2
 
-	return ran.index(guess)
+	return array.index(guess)
 	
 
 if __name__ == '__main__':
 	testrange = range(1000)
 	testtarget = 7
-	print binarysearch(testrange, testtarget)
+	print basic_binary_search(testrange, testtarget)
+

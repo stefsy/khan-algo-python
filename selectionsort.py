@@ -33,3 +33,4 @@ if __name__ == '__main__':
 	# print swap(range(10),a,b), a, b
 	# print indexOfMinimum([493,3,5,2,25],0)
 	print selectionSort([1,5,4,2,4,493,3,2,25])
+
