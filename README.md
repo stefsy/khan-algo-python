@@ -3,9 +3,8 @@ porting https://www.khanacademy.org/computing/computer-science/algorithms to pyt
 
 - [x] Binary Search
 - [x] Selection Sort
-- [ ] Insertion sort
-- [ ] Recursion
-- [ ] Towers of Hanoi
+- [x] Insertion sort
+- [x] Recursion
 - [ ] Merge sort
 - [ ] Quick sort
 - [ ] Graph representation

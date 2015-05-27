@@ -14,11 +14,11 @@ def indexOfMinimum(array, startIndex):
     minValue = array[startIndex]
     minIndex = startIndex 
 
-    for i in range(startIndex, len(array)):
+    for i in range(startIndex + 1, len(array)):
 		if array[i] < minValue:
 			minValue = array[i]
 			minIndex = i
-
+			
     return minIndex
 
 

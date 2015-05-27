@@ -17,8 +17,8 @@ def basic_binary_search(array, target):
 	return array.index(guess)
 	
 
-if __name__ == '__main__':
+if __name__ == '__main__':		
+	print "hello i'm running the program"
 	testrange = range(1000)
 	testtarget = 7
 	print basic_binary_search(testrange, testtarget)
-
