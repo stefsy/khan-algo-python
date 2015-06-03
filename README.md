@@ -18,8 +18,7 @@ To do:
 - [x] Recursion
 - [x] Merge sort
 - [x] Quick sort
-- [ ] Graph representation
-- [ ] Breadth-first search
+- [x] Breadth-first search
 
 ## Unit Tests
 
