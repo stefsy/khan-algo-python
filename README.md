@@ -4,7 +4,7 @@ porting https://www.khanacademy.org/computing/computer-science/algorithms to pyt
 Aimed towards novices. Sample code isn't quite pythonic because I'm trying to maximize understanding by keeping the the function names, variable names, and logic similar to the original javascript. 
 
 To do:
-1. sample code
+1. sample code - done
 2. unit tests
 3. proper readme with links 
 4. instructions on how to run unit tests 
